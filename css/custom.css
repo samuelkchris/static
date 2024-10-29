@@ -1,0 +1,51 @@
+/* custom.css */
+
+/* Customize the navbar */
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+/* Adjust the main content area */
+.container {
+    max-width: 1200px;
+}
+
+/* Footer styling */
+footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    border-top: 1px solid #dee2e6;
+    margin-top: 40px;
+}
+
+/* Custom buttons */
+.btn-primary {
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+
+/* Table styling */
+.table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th, .table td {
+    padding: 12px;
+    text-align: left;
+}
+
+.table th {
+    background-color: #007bff;
+    color: white;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* Enhance form elements */
+select.form-control, input.form-control {
+    border-radius: 0.25rem;
+}
